@@ -38,5 +38,4 @@ const scheduleInsertion = async (req, res) => {
 //     createdAt: date,
 //   })
 }
-
 module.exports = scheduleInsertion;

@@ -13,5 +13,4 @@ const userSchema = new mongoose.Schema({
     email: String,
     userType: String,
 });
-
 module.exports = mongoose.model('User', userSchema);

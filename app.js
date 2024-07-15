@@ -7,8 +7,6 @@ const upload = require('./routes/uploadRoutes')
 const policy = require('./routes/policyRoutes')
 const schedule = require('./routes/scheduleRoutes')
 
-
-
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

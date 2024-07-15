@@ -14,5 +14,4 @@ const addItem = async (req, res) => {
         res.status(200).send('Data uploaded successfully');
     });
 }
-
 module.exports = addItem;

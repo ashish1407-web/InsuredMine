@@ -1,6 +1,6 @@
 const connectToMongo = require('./config/db');
 const app = require('./app');
-const port = 9000
+const port = 8000
 
 connectToMongo();
 

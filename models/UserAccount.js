@@ -5,5 +5,4 @@ const userAccountSchema = new mongoose.Schema({
     accountType: String,
     user: mongoose.Schema.Types.ObjectId
 });
-
 module.exports = mongoose.model('UserAccount', userAccountSchema);

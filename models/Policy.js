@@ -15,5 +15,4 @@ const policySchema = new mongoose.Schema({
     user: mongoose.Schema.Types.ObjectId,
     agent: mongoose.Schema.Types.ObjectId,
 });
-
 module.exports = mongoose.model('Policy', policySchema);

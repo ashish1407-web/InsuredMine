@@ -1,11 +1,25 @@
 {
   "name": "insuredmine12",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "lockfileVersion": 3,
+  "requires": true,
   "author": "",
-  "license": "ISC"
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "packages": {
+    "": {
+      "name": "insuredmine12",
+      "version": "1.0.0",
+      "license": "ISC"
+    }
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
